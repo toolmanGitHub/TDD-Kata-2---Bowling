@@ -10,6 +10,12 @@
 		EC77CA6915F2FB2F00FE1180 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC77CA6815F2FB2F00FE1180 /* Foundation.framework */; };
 		EC77CA6C15F2FB2F00FE1180 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC77CA6B15F2FB2F00FE1180 /* main.m */; };
 		EC77CA7015F2FB3000FE1180 /* Kata_2_Bowling.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EC77CA6F15F2FB3000FE1180 /* Kata_2_Bowling.1 */; };
+		EC77CA7E15F3B03000FE1180 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC77CA7D15F3B03000FE1180 /* SenTestingKit.framework */; };
+		EC77CA8015F3B03000FE1180 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC77CA7F15F3B03000FE1180 /* Cocoa.framework */; };
+		EC77CA8A15F3B03000FE1180 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC77CA8815F3B03000FE1180 /* InfoPlist.strings */; };
+		EC77CA9415F3B05A00FE1180 /* BDBowlingGameScoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC77CA9315F3B05A00FE1180 /* BDBowlingGameScoreTests.m */; };
+		EC77CA9715F3B0E600FE1180 /* BDBowlingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = EC77CA9615F3B0E600FE1180 /* BDBowlingGame.m */; };
+		EC77CA9815F3B0E600FE1180 /* BDBowlingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = EC77CA9615F3B0E600FE1180 /* BDBowlingGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +37,20 @@
 		EC77CA6B15F2FB2F00FE1180 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EC77CA6E15F2FB3000FE1180 /* Kata 2 Bowling-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kata 2 Bowling-Prefix.pch"; sourceTree = "<group>"; };
 		EC77CA6F15F2FB3000FE1180 /* Kata_2_Bowling.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Kata_2_Bowling.1; sourceTree = "<group>"; };
+		EC77CA7615F2FCDF00FE1180 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		EC77CA7C15F3B03000FE1180 /* Bowling Game Score.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bowling Game Score.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC77CA7D15F3B03000FE1180 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		EC77CA7F15F3B03000FE1180 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		EC77CA8215F3B03000FE1180 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EC77CA8315F3B03000FE1180 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EC77CA8415F3B03000FE1180 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC77CA8715F3B03000FE1180 /* Bowling Game Score-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bowling Game Score-Info.plist"; sourceTree = "<group>"; };
+		EC77CA8915F3B03000FE1180 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC77CA8E15F3B03000FE1180 /* Bowling Game Score-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bowling Game Score-Prefix.pch"; sourceTree = "<group>"; };
+		EC77CA9215F3B05A00FE1180 /* BDBowlingGameScoreTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDBowlingGameScoreTests.h; sourceTree = "<group>"; };
+		EC77CA9315F3B05A00FE1180 /* BDBowlingGameScoreTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDBowlingGameScoreTests.m; sourceTree = "<group>"; };
+		EC77CA9515F3B0E600FE1180 /* BDBowlingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BDBowlingGame.h; path = Classes/BDBowlingGame.h; sourceTree = "<group>"; };
+		EC77CA9615F3B0E600FE1180 /* BDBowlingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BDBowlingGame.m; path = Classes/BDBowlingGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,13 +62,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC77CA7815F3B03000FE1180 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC77CA7E15F3B03000FE1180 /* SenTestingKit.framework in Frameworks */,
+				EC77CA8015F3B03000FE1180 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		EC77CA5915F2FB2F00FE1180 = {
 			isa = PBXGroup;
 			children = (
+				EC77CA7615F2FCDF00FE1180 /* README.md */,
 				EC77CA6A15F2FB2F00FE1180 /* Kata 2 Bowling */,
+				EC77CA8515F3B03000FE1180 /* Bowling Game Score */,
 				EC77CA6715F2FB2F00FE1180 /* Frameworks */,
 				EC77CA6515F2FB2F00FE1180 /* Products */,
 			);
@@ -58,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				EC77CA6415F2FB2F00FE1180 /* Kata 2 Bowling */,
+				EC77CA7C15F3B03000FE1180 /* Bowling Game Score.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,6 +98,9 @@
 			isa = PBXGroup;
 			children = (
 				EC77CA6815F2FB2F00FE1180 /* Foundation.framework */,
+				EC77CA7D15F3B03000FE1180 /* SenTestingKit.framework */,
+				EC77CA7F15F3B03000FE1180 /* Cocoa.framework */,
+				EC77CA8115F3B03000FE1180 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -76,6 +111,8 @@
 				EC77CA6B15F2FB2F00FE1180 /* main.m */,
 				EC77CA6F15F2FB3000FE1180 /* Kata_2_Bowling.1 */,
 				EC77CA6D15F2FB3000FE1180 /* Supporting Files */,
+				EC77CA9515F3B0E600FE1180 /* BDBowlingGame.h */,
+				EC77CA9615F3B0E600FE1180 /* BDBowlingGame.m */,
 			);
 			path = "Kata 2 Bowling";
 			sourceTree = "<group>";
@@ -84,6 +121,36 @@
 			isa = PBXGroup;
 			children = (
 				EC77CA6E15F2FB3000FE1180 /* Kata 2 Bowling-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC77CA8115F3B03000FE1180 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC77CA8215F3B03000FE1180 /* AppKit.framework */,
+				EC77CA8315F3B03000FE1180 /* CoreData.framework */,
+				EC77CA8415F3B03000FE1180 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		EC77CA8515F3B03000FE1180 /* Bowling Game Score */ = {
+			isa = PBXGroup;
+			children = (
+				EC77CA8615F3B03000FE1180 /* Supporting Files */,
+				EC77CA9215F3B05A00FE1180 /* BDBowlingGameScoreTests.h */,
+				EC77CA9315F3B05A00FE1180 /* BDBowlingGameScoreTests.m */,
+			);
+			path = "Bowling Game Score";
+			sourceTree = "<group>";
+		};
+		EC77CA8615F3B03000FE1180 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC77CA8715F3B03000FE1180 /* Bowling Game Score-Info.plist */,
+				EC77CA8815F3B03000FE1180 /* InfoPlist.strings */,
+				EC77CA8E15F3B03000FE1180 /* Bowling Game Score-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -108,6 +175,24 @@
 			productReference = EC77CA6415F2FB2F00FE1180 /* Kata 2 Bowling */;
 			productType = "com.apple.product-type.tool";
 		};
+		EC77CA7B15F3B03000FE1180 /* Bowling Game Score */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC77CA8F15F3B03000FE1180 /* Build configuration list for PBXNativeTarget "Bowling Game Score" */;
+			buildPhases = (
+				EC77CA7715F3B03000FE1180 /* Sources */,
+				EC77CA7815F3B03000FE1180 /* Frameworks */,
+				EC77CA7915F3B03000FE1180 /* Resources */,
+				EC77CA7A15F3B03000FE1180 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bowling Game Score";
+			productName = "Bowling Game Score";
+			productReference = EC77CA7C15F3B03000FE1180 /* Bowling Game Score.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -130,9 +215,37 @@
 			projectRoot = "";
 			targets = (
 				EC77CA6315F2FB2F00FE1180 /* Kata 2 Bowling */,
+				EC77CA7B15F3B03000FE1180 /* Bowling Game Score */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC77CA7915F3B03000FE1180 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC77CA8A15F3B03000FE1180 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EC77CA7A15F3B03000FE1180 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EC77CA6015F2FB2F00FE1180 /* Sources */ = {
@@ -140,10 +253,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC77CA6C15F2FB2F00FE1180 /* main.m in Sources */,
+				EC77CA9715F3B0E600FE1180 /* BDBowlingGame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC77CA7715F3B03000FE1180 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC77CA9415F3B05A00FE1180 /* BDBowlingGameScoreTests.m in Sources */,
+				EC77CA9815F3B0E600FE1180 /* BDBowlingGame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC77CA8815F3B03000FE1180 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC77CA8915F3B03000FE1180 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EC77CA7115F2FB3000FE1180 /* Debug */ = {
@@ -213,6 +347,32 @@
 			};
 			name = Release;
 		};
+		EC77CA9015F3B03000FE1180 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bowling Game Score/Bowling Game Score-Prefix.pch";
+				INFOPLIST_FILE = "Bowling Game Score/Bowling Game Score-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		EC77CA9115F3B03000FE1180 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bowling Game Score/Bowling Game Score-Prefix.pch";
+				INFOPLIST_FILE = "Bowling Game Score/Bowling Game Score-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -230,6 +390,14 @@
 			buildConfigurations = (
 				EC77CA7415F2FB3000FE1180 /* Debug */,
 				EC77CA7515F2FB3000FE1180 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC77CA8F15F3B03000FE1180 /* Build configuration list for PBXNativeTarget "Bowling Game Score" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC77CA9015F3B03000FE1180 /* Debug */,
+				EC77CA9115F3B03000FE1180 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
