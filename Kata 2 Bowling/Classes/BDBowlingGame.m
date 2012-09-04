@@ -10,6 +10,14 @@
 
 @implementation BDBowlingGame
 
+-(id)init{
+    self= [super init];
+    if (self) {
+        currentRoll=0;
+    }
+    return self;
+}
+
 
 
 -(void)roll:(NSInteger)pins{
@@ -19,10 +27,15 @@
 }
 
 -(NSInteger)score{
+        
+    return [self scoreForFrame:10];
+}
+
+-(NSInteger)scoreForFrame:(NSInteger)frame{
     sum=0;
     NSInteger currentFrame=0;
     NSInteger roll=0;
-    for (currentFrame=0 ; currentFrame<10; currentFrame++) {
+    for (currentFrame=0 ; currentFrame<frame; currentFrame++) {
         if ([self isStrikeForRoll:roll]) {
             sum+=10+[self strikeBonusForRoll:roll];
             roll++;
@@ -30,16 +43,18 @@
             if ([self isSpareForRoll:roll]) {
                 sum+=10l+[self spareBonusForRoll:roll];
             }else{
-                sum+=[self frameScoreForRoll:roll];
+                sum+=[self frameTotalForRoll:roll];
             }
             roll+=2;
         }
     }
     
     return sum;
+
+    
 }
 
--(NSInteger)frameScoreForRoll:(NSInteger)roll{
+-(NSInteger)frameTotalForRoll:(NSInteger)roll{
     return rolls[roll]+rolls[roll+1];
 }
 

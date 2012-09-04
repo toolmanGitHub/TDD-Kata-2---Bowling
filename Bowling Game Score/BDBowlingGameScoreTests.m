@@ -126,6 +126,33 @@
     STAssertEquals(expectedScore, actualScore, @"BDBowlingGame Uncle Bob's game should score correctly.  Expected:  %ld.  Got:  %ld",expectedScore,actualScore);
 }
 
+-(void)testThatClassRespondsToGettingScoreMidGame{
+    STAssertTrue([bowlingGame respondsToSelector:@selector(scoreForFrame:)], @"BDBowlingGame should respond to scoreForFrame: method");
+}
+
+-(void)testThatClassScoresCorrectlyMidGame_Spare{
+    [self bowlFrameWithFirstRoll:1 secondRoll:4];
+    [self bowlFrameWithFirstRoll:4 secondRoll:5]; //14
+    [self rollSpareWithFirstRoll:6 secondRoll:4]; // 29
+    [self rollSpareWithFirstRoll:5 secondRoll:5];
+    
+    NSInteger expectedScore=29;
+    NSInteger actualScore=[bowlingGame scoreForFrame:3];
+    STAssertEquals(expectedScore, actualScore, @"BDBowlingGame should score correctly mid game.  Expected:  %ld.  Got:  %ld",expectedScore,actualScore);
+}
+
+-(void)testThatClassScoresCorrectlyMidGame_Strike{
+    [self bowlFrameWithFirstRoll:1 secondRoll:4];
+    [self bowlFrameWithFirstRoll:4 secondRoll:5];
+    [self rollSpareWithFirstRoll:6 secondRoll:4];  //29
+    [self rollSpareWithFirstRoll:5 secondRoll:5];  // 49
+    [bowlingGame roll:10]; // strike in fifth frame //60
+    [self bowlFrameWithFirstRoll:0 secondRoll:1];
+    
+    NSInteger expectedScore=60;
+    NSInteger actualScore=[bowlingGame scoreForFrame:5];
+    STAssertEquals(expectedScore, actualScore, @"BDBowlingGame should score correctly mid game, strike.  Expected:  %ld.  Got:  %ld",expectedScore,actualScore);
+}
 #pragma mark -
 #pragma mark Helpers
 

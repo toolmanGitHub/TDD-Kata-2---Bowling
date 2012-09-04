@@ -16,5 +16,6 @@
 
 -(void)roll:(NSInteger)pins;
 -(NSInteger)score;
+-(NSInteger)scoreForFrame:(NSInteger)frame;
 
 @end
