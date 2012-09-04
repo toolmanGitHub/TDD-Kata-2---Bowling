@@ -28,7 +28,6 @@
             roll++;
         }else{
             if ([self isSpareForRoll:roll]) {
-                NSLog(@"  isSpare");
                 sum+=10l+[self spareBonusForRoll:roll];
             }else{
                 sum+=rolls[roll]+rolls[roll+1];
@@ -36,8 +35,6 @@
             
             roll+=2;
         }
-        NSLog(@"frame:  %ld, score=%ld",currentFrame,sum);
-        
     }
     
     return sum;
