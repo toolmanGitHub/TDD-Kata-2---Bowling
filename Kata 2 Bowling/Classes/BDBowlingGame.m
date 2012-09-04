@@ -30,14 +30,17 @@
             if ([self isSpareForRoll:roll]) {
                 sum+=10l+[self spareBonusForRoll:roll];
             }else{
-                sum+=rolls[roll]+rolls[roll+1];
+                sum+=[self frameScoreForRoll:roll];
             }
-            
             roll+=2;
         }
     }
     
     return sum;
+}
+
+-(NSInteger)frameScoreForRoll:(NSInteger)roll{
+    return rolls[roll]+rolls[roll+1];
 }
 
 -(BOOL)isSpareForRoll:(NSInteger)roll{
@@ -50,7 +53,6 @@
 }
 
 -(NSInteger)spareBonusForRoll:(NSInteger)roll{
-    NSLog(@"   spare bonus=%ld",rolls[roll+2]);
     return rolls[roll+2];
     
 }
